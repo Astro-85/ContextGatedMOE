@@ -19,7 +19,9 @@ All preprocessed datasets are availible in [datasets](./datasets). There is no a
 If you wish to download the original datasets and preprocess yourself, please visit the pages below:
 
 CommonsenseQA: https://github.com/jonathanherzig/commonsenseqa
+
 MedicalQA: https://github.com/jind11/MedQA
+
 ScienceQA: https://github.com/lupantech/ScienceQA
 
 After downloading, preprocessing can be done in `format_datasets.ipynb`.
@@ -30,7 +32,14 @@ All training and evaluation demos are notebooks. Before running training or eval
 The training notebooks can be configured to save checkpoints and figures to a specified directory. 
 
 Use `T5_base_lora_training.ipynb` to train baseline experiments including fully finetuning model weights as well as LoRA finetunes.
+
 Use `T5_base_lora_training_combined_data.ipynb` to train baseline experiments using combined datasets.
+
 Use `T5_lora_cgm_training.ipynb` to train CGM module weights useing finetuned LoRAs.
+
 Use `T5_base_lora_evaluating.ipynb` and `T5_lora_cgm_evaluating.ipynb` to perform standalone evaluation.
+
+We provide finetuned LoRA weights and trained CGM weights in `results/released_weights`.
+
+
 
