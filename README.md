@@ -1,6 +1,6 @@
 # Context Gated Mixture of Experts
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-green)]
+![LICENSE](https://img.shields.io/badge/license-MIT-green)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 ![PyTorch](https://img.shields.io/badge/pytorch-2.1-yellow)
 
