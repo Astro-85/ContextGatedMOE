@@ -8,6 +8,7 @@ Demo of Context Gated Mixture of Experts using T-5 base for generative MCQ tasks
 
 All Context Gated Mixing source code can be found under `loralib/layers_cgm.py`. Our implementation is built on the original LoRA repository found here: https://github.com/microsoft/LoRA
 
+This repository contains half of the total experiments for this project. The other half focussing on Context Gated Mixing for open domain text generation can be found [here](https://github.com/JonathanMathews/Dynamic-Weight-Ensembling-of-LoRAs).
 
 # Setup
 We provide an `environment.yml` file for easy environment setup. The demo only needs a few libraries to run. A list of libraries is provided in `environment_setup.txt` if you wish to manually install the libraries.

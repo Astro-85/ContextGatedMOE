@@ -28,7 +28,7 @@ class ContextGatedMixing(nn.Module):
         
         # For transformer block inputs, we need to reduce the seq_len dim
         x = torch.mean(x, dim=1)
-
+        
         return F.softmax(x)
         
 
@@ -69,6 +69,8 @@ class CGMLinear(nn.Linear):
         # Create combined lora_A and lora_B
         lora_A_ensemble = a*self.lora_A[0] + b*self.lora_A[1] + c*self.lora_A[2]
         lora_B_ensemble = a*self.lora_B[0] + b*self.lora_B[1] + c*self.lora_B[2]
+
+        #print(round(a.item(), 2), round(b.item(), 2), round(c.item(), 2))
         
         result = F.linear(x, self.weight, bias=self.bias)            
         result += (x @ lora_A_ensemble.transpose(0, 1) @ lora_B_ensemble.transpose(0, 1)) * self.scaling
