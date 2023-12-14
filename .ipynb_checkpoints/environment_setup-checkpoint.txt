@@ -1,8 +1,0 @@
-install pytorch
-install transformers
-install pandas
-install matplotlib
-install nltk
-install spacy
-install sklearn
-install jupyter

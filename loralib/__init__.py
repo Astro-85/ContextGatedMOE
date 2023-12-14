@@ -1,5 +1,5 @@
 name = "lora"
 
 from .layers import *
-from .layers_dwm import *
+from .layers_cgm import *
 from .utils import *
