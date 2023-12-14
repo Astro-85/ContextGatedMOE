@@ -14,7 +14,7 @@ We provide an `environment.yml` file for easy environment setup. The demo only n
 
 
 # Download
-All preprocessed datasets are availible in [datasets](./datasets). There is no additional preprocessing needed to run the training and evaluation notebooks in this repository.
+All preprocessed datasets are availible in `datasets`. There is no additional preprocessing needed to run the training and evaluation notebooks in this repository.
 
 If you wish to download the original datasets and preprocess yourself, please visit the pages below:
 
