@@ -1,7 +1,7 @@
 datasets/CommonsenseQA/*.jsonl
 datasets/MedQA/*.jsonl
 datasets/ScienceQA/*.parquet
-datasets/
+figures/
 results/*
 !results/released_weights
 *__pycache__/
